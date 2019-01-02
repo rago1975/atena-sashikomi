@@ -1,0 +1,21 @@
+% !TEX program = LuaLaTeX
+
+\documentclass[12pt]{ltjtarticle}
+\usepackage[paperheight=148truemm,paperwidth=100truemm]{geometry}
+\usepackage{luatexja} % ltjclasses, ltjsclasses を使うときはこの行不要
+\usepackage{graphicx}
+\usepackage{fancybox}
+%\usepackage{calc}
+\usepackage{wasysym}
+\usepackage{setspace}
+\usepackage{fontspec}
+\usepackage{luatexja-fontspec}
+
+\geometry{verbose,tmargin=1mm,bmargin=1mm,lmargin=1mm,rmargin=1mm}
+\pagestyle{empty}
+
+%\setmainfont[Ligatures=TeX]{Helvetica Neue UltraLight}
+\setmainjfont[BoldFont=IPAexGothic]{IPAexGothic}
+\setsansjfont{IPAexGothic}
+
+\begin{document}
